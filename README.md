@@ -23,8 +23,10 @@ This project is part of Frontend Mentors course. The goal of this project was to
 
 ## Screenshots
 <p align="center">
-  ![Screenshot of the final design](https://user-images.githubusercontent.com/25035576/157226899-efe1b7c1-4dfe-48c5-9eac-1ac0b05993ee.png)
-</p>
 
+  <img width="800" alt="Screenshot 2022-03-08 at 12-06-33 Frontend mentor Advice Generator" src="https://user-images.githubusercontent.com/25035576/157227268-eaa72a41-95bf-4b09-8fef-589f2e8c31a2.png">
+
+</p>
+ 
 ## Live preview
 [Click for live preview](https://vercel.com/dtomicic/huddle-landing-page/3miWm3FrXTWeDt3CeNSJJDe1zx5N)
