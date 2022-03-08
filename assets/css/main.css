@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  background-color: #1f2632;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Manrope";
+  color: #cee3e9;
+}
+
+.main__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background-color: #323a49;
+  padding: 1.875rem 1.875rem 0 1.875rem;
+  border-radius: 0.9375rem;
+  max-width: 23.5625rem;
+}
+
+.main__cardText {
+  text-align: center;
+  font-size: 1.25rem;
+  min-width: 17.3125rem;
+}
+
+.main__cardTextHeader {
+  color: #52ffa8;
+  font-size: 0.6875rem;
+  margin-bottom: 1.875rem;
+  margin-top: 0.625rem;
+  letter-spacing: 0.1875rem;
+}
+
+.main__cardTextParagraph {
+  margin-bottom: 1.875rem;
+}
+
+.main__cardDivider.desktop {
+  display: none;
+}
+
+.main__cardCircle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #52ffa8;
+  width: 4.375rem;
+  height: 4.375rem;
+  padding: 1.4375rem;
+  border-radius: 3.125rem;
+  position: relative;
+  z-index: 9999;
+  top: 1.875rem;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.main__cardCircle:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 40px 1px #52ffa8;
+          box-shadow: 0 0 40px 1px #52ffa8;
+}
+
+.main__cardCirclePicture {
+  width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .main__card {
+    max-width: 31.25rem;
+  }
+  .main__cardDivider.mobile {
+    display: none;
+  }
+  .main__cardDivider.desktop {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */
