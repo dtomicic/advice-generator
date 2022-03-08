@@ -1,0 +1,82 @@
+.main {
+    background-color: $darkBlue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $mainFont;
+    color: $lightCyan;
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        background-color: $darkGrayBlue;
+        padding: toRem(30) toRem(30) 0 toRem(30);
+        border-radius: toRem(15);
+        max-width: toRem(377);
+
+        &Text {
+            text-align: center;
+            font-size: toRem(20);
+            min-width: toRem(277);
+        
+            &Header {
+                color: $neonGreen;
+                font-size: toRem(11);
+                margin-bottom: toRem(30);
+                margin-top: toRem(10);
+                letter-spacing: toRem(3);
+            }
+
+            &Paragraph {
+                margin-bottom: toRem(30);
+            }
+        }
+
+        &Divider.desktop {
+            display: none;
+        }
+
+        &Circle {
+            display: flex;
+            justify-content: center;
+            background-color: $neonGreen;
+            width: toRem(70);
+            height: toRem(70);
+            padding: toRem(23);
+            border-radius: toRem(50);
+            position: relative;
+            z-index: 9999;
+            top: toRem(30);
+            transition: ease-in-out 0.3s;
+
+            &:hover {
+                cursor: pointer;
+                box-shadow: 0 0 40px 1px $neonGreen;
+            }
+
+            &Picture {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Breakpoints
+
+@media (min-width: $breakDesktop) {
+    .main__card {
+        max-width: toRem(500);
+    }
+
+    .main__cardDivider.mobile {
+        display: none;
+    }
+
+    .main__cardDivider.desktop {
+        display: block;
+    }
+}
