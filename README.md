@@ -29,4 +29,4 @@ This project is part of Frontend Mentors course. The goal of this project was to
 </p>
  
 ## Live preview
-[Click for live preview](https://vercel.com/dtomicic/huddle-landing-page/3miWm3FrXTWeDt3CeNSJJDe1zx5N)
+[Click for live preview](https://advice-generator-pied.vercel.app/)
